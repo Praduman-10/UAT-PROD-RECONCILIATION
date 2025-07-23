@@ -63,9 +63,6 @@ In real-world data workflows, validating that UAT and Production datasets match 
 | ❌ No fuzzy matching | Plan to integrate fuzzywuzzy or rapidfuzz for approximate string comparison |
 | ❌ Only structured data | Current version does not handle semi-structured (JSON/XML) |
 | ❌ Manual file input | Future scope: build a CLI or Streamlit GUI for file selection |
-| ❌ No database connectors | Currently supports only file inputs, not live DBs (e.g., SQL) |
+| ❌ No database connectors | Currently supports only file inputs, Only oull static data from DB's and not the live DBs (e.g., SQL) |
 
 ---
-
-## 📂 Folder/File Structure
-
